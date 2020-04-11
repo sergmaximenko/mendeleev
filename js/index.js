@@ -1,4 +1,4 @@
-let img = document.querySelectorAll('.slider img');
+let img = document.querySelectorAll('#slider img');
 cur = 0;
 
 function slider(){
@@ -22,5 +22,17 @@ function slider(){
 	}
 };
 
-
 let timerId = setInterval(slider, 8000);
+
+
+
+
+let slr = document.getElementById('slider');
+let lod = document.querySelector('.loader');
+
+setTimeout(function(){slr.scrollIntoView({behavior: "smooth"});}, 2500);
+setTimeout(function(){lod.classList.add('display0');}, 3500);
+
+console.log(HTMLElement);
+
+
