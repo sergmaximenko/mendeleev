@@ -25,14 +25,30 @@ function slider(){
 let timerId = setInterval(slider, 8000);
 
 
+let menu = document.querySelector('.menu');
+setTimeout(function(){menu.scrollIntoView({behavior: "smooth"});}, 2500);
 
 
-let slr = document.getElementById('slider');
-let lod = document.querySelector('.loader');
+let cont = document.querySelector('.cont');
+let mendeleev = document.querySelector('.mendeleev');
 
-setTimeout(function(){slr.scrollIntoView({behavior: "smooth"});}, 2500);
-setTimeout(function(){lod.classList.add('display0');}, 3500);
+mendeleev.onclick = function(){
+	cont.classList.remove('display0');
+	cont.scrollIntoView({behavior: "smooth"});
+}
 
-console.log(HTMLElement);
+let logo = document.querySelector('.logo_b');
+logo.onclick = function(){
+	menu.scrollIntoView({behavior: "smooth"});
+}
+
+let arrow = document.getElementById('arrow');
+arrow.onclick = function(){
+	menu.scrollIntoView({behavior: "smooth"});
+}
+
+let loader = document.querySelector('.loader');
+setTimeout(function(){loader.classList.add('display0');}, 3100);
+
 
 

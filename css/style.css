@@ -3,28 +3,33 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  overflow: hidden; }
+.display0 {
+  display: none; }
 
-.cont {
+html {
+  overflow-x: hidden; }
+
+.menu_wrap {
   position: relative;
-  top: 100%; }
-  .cont #slider {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; }
+  .menu_wrap #slider {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    position: absolute;
-    top: 0; }
-    .cont #slider img {
+    top: 0;
+    position: fixed; }
+    .menu_wrap #slider img {
       width: 100%;
       height: 100vh;
       position: absolute;
       opacity: 1;
       transition: opacity 2s;
       overflow: hidden; }
-    .cont #slider .opacity0 {
+    .menu_wrap #slider .opacity0 {
       opacity: 0; }
-    .cont #slider .anim {
+    .menu_wrap #slider .anim {
       animation: slider 11s linear; }
 
 @keyframes slider {
@@ -36,10 +41,10 @@ body {
 .shadow {
   width: 100%;
   height: 100vh;
-  position: absolute;
-  z-index: 1;
+  top: 0;
+  position: fixed;
   background: black;
-  opacity: .3; }
+  opacity: .2; }
 
 .logo {
   position: absolute;
@@ -51,7 +56,10 @@ body {
 .menu {
   display: flex;
   flex-flow: row nowrap;
-  cursor: pointer; }
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 100%; }
   .menu .menu_column {
     width: 100%;
     height: 100vh;
@@ -111,7 +119,9 @@ body {
 .loader {
   width: 100%;
   height: 100vh;
-  background: radial-gradient(ellipse at center, #595959 0%, #0f0804 100%); }
+  background: radial-gradient(ellipse at center, #595959 0%, #0f0804 100%);
+  position: relative;
+  z-index: 10000; }
   .loader .logo {
     top: 43%;
     animation: logo 1s ease; }
@@ -121,9 +131,6 @@ body {
     position: absolute;
     top: 50%;
     animation: line 2.5s ease; }
-
-.display0 {
-  display: none; }
 
 @keyframes line {
   0% {
@@ -137,5 +144,113 @@ body {
     opacity: 0; }
   100% {
     opacity: 1; } }
+.cont {
+  padding-top: 0.1px;
+  height: 1000px;
+  position: relative; }
+  .cont #arrow {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    cursor: pointer; }
+    .cont #arrow:hover .left_arrow {
+      left: 48vw; }
+    .cont #arrow:hover .right_arrow {
+      left: 50.6vw; }
+    .cont #arrow .left_arrow, .cont #arrow .right_arrow {
+      width: 2px;
+      height: 4vw;
+      background: #fff;
+      display: inline-block;
+      position: absolute;
+      left: 49.8%;
+      top: 3%;
+      transition: all .3s; }
+    .cont #arrow .left_arrow {
+      transform: rotate(45deg); }
+    .cont #arrow .right_arrow {
+      transform: rotate(-45deg); }
+  .cont .nameplate {
+    margin: 12vh auto 0;
+    text-align: center;
+    background-color: rgba(108, 133, 158, 0.7);
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    font-family: Arial;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px; }
+  .cont h1 {
+    text-align: center;
+    font-family: Arial;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 40px; }
+  .cont .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: black;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    margin: 11vh auto 0;
+    color: #fff;
+    z-index: 10;
+    position: relative; }
+  .cont .cont_text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 30px;
+    margin-top: -30px;
+    z-index: 1;
+    height: 100vh; }
+    .cont .cont_text h2 {
+      text-align: center;
+      font-family: Arial;
+      margin-top: 60px; }
+    .cont .cont_text h3 {
+      text-align: center;
+      font-family: Arial;
+      color: #6c859e;
+      margin-top: 5px; }
+    .cont .cont_text p {
+      font-family: Arial;
+      padding: 20px 27vw 0; }
+  .cont .address {
+    padding-top: 20px;
+    width: 280px;
+    margin: 0 auto;
+    font-family: Arial;
+    color: #6c859e;
+    cursor: pointer; }
+    .cont .address span {
+      transition: color .2s; }
+      .cont .address span:hover {
+        color: black; }
+    .cont .address i {
+      font-size: 25px;
+      margin-right: 10px;
+      color: black; }
+    .cont .address .address_icon {
+      padding-bottom: 20px; }
+      .cont .address .address_icon .address_icon_wrap {
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        display: inline-block; }
+  .cont .icon_mini {
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer; }
+    .cont .icon_mini i {
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 20px; }
+  .cont .logo_b {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

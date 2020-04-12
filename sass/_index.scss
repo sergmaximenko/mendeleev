@@ -3,6 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body{
-	overflow: hidden;
+
+.display0{
+	display: none;
+}
+
+html{
+	overflow-x: hidden;
 }

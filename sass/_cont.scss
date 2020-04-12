@@ -1,0 +1,131 @@
+.cont{
+	padding-top: 0.1px;
+	height: 1000px;
+	position: relative;
+	#arrow{
+		width: 100px;
+		height: 100px;
+		margin: 0 auto;
+		cursor: pointer;
+		&:hover .left_arrow{
+			left: 48vw;
+		}
+		&:hover .right_arrow{
+			left: 50.6vw;
+		}
+		.left_arrow, .right_arrow{
+		width: 2px;
+		height: 4vw;
+		background: #fff;
+		display: inline-block;
+		position: absolute;
+		left: 49.8%;
+		top: 3%;
+		transition: all .3s;
+		}
+		.left_arrow{
+			transform: rotate(45deg);
+		}
+		.right_arrow{
+			transform: rotate(-45deg);
+		}
+	}
+	.nameplate{
+		margin: 12vh auto 0;
+		text-align: center;
+		background-color: rgba(108, 133, 158, 0.7);
+		width: 80px;
+		height: 25px;
+		line-height: 25px;
+		font-family: Arial;
+		color: #fff;
+		border-radius: 5px;
+		letter-spacing: 1px;
+	}
+	h1{
+		text-align: center;
+		font-family: Arial;
+		letter-spacing: 2px;
+		margin-top: 20px;
+		color: #fff;
+		font-size: 40px;
+	}
+	.icon{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background: black;
+		line-height: 60px;
+		text-align: center;
+		font-size: 25px;
+		margin: 11vh auto 0;
+		color: #fff;
+		z-index: 10;
+		position: relative;
+	}
+	.cont_text{
+	    background-color: rgba(255, 255, 255, 0.8);
+		padding-top: 30px;
+		margin-top: -30px;
+		z-index: 1;
+		height: 100vh;
+		h2{
+			text-align: center;
+			font-family: Arial;
+			margin-top: 60px;
+		}
+		h3{
+			text-align: center;
+			font-family: Arial;
+			color: #6c859e;
+			margin-top: 5px;
+		}
+		p{
+			font-family: Arial;
+			padding: 20px 27vw 0;
+		}
+	}
+	.address{
+	    padding-top: 20px;
+		width: 280px;
+		margin: 0 auto;
+		font-family: Arial;
+		color: #6c859e;
+		cursor: pointer;
+		span{
+			transition: color .2s;
+			&:hover{
+				color: black;
+			}
+		}
+		i{
+			font-size: 25px;
+			margin-right: 10px;
+			color: black;
+		}
+		.address_icon{
+			padding-bottom: 20px;
+			.address_icon_wrap{
+				height: 30px;
+				width: 30px;
+				text-align: center;
+				display: inline-block;
+			}
+		}
+	}
+	.icon_mini{
+		text-align: center;
+		font-size: 25px;
+		cursor: pointer;
+		i{
+			margin-right: 10px;
+			margin-left: 10px;
+			margin-top: 20px;
+		}
+	}
+	.logo_b{
+		text-align: center;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+}
