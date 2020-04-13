@@ -5,7 +5,9 @@
 	position: relative;
 	z-index: 10000;
 	.logo{
+		position: absolute;
 		top: 43%;
+		left: 49.2%;
 		animation: logo 1s ease;
 	}
 	.line{

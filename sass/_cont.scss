@@ -2,7 +2,7 @@
 	padding-top: 0.1px;
 	height: 1000px;
 	position: relative;
-	#arrow{
+	.arrow{
 		width: 100px;
 		height: 100px;
 		margin: 0 auto;
@@ -68,7 +68,6 @@
 		padding-top: 30px;
 		margin-top: -30px;
 		z-index: 1;
-		height: 100vh;
 		h2{
 			text-align: center;
 			font-family: Arial;
@@ -85,38 +84,11 @@
 			padding: 20px 27vw 0;
 		}
 	}
-	.address{
-	    padding-top: 20px;
-		width: 280px;
-		margin: 0 auto;
-		font-family: Arial;
-		color: #6c859e;
-		cursor: pointer;
-		span{
-			transition: color .2s;
-			&:hover{
-				color: black;
-			}
-		}
-		i{
-			font-size: 25px;
-			margin-right: 10px;
-			color: black;
-		}
-		.address_icon{
-			padding-bottom: 20px;
-			.address_icon_wrap{
-				height: 30px;
-				width: 30px;
-				text-align: center;
-				display: inline-block;
-			}
-		}
-	}
 	.icon_mini{
 		text-align: center;
 		font-size: 25px;
 		cursor: pointer;
+		margin-top: 20px;
 		i{
 			margin-right: 10px;
 			margin-left: 10px;
@@ -126,6 +98,7 @@
 	.logo_b{
 		text-align: center;
 		margin-top: 20px;
+		padding-bottom: 20px;
 		cursor: pointer;
 	}
 }
