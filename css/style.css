@@ -271,16 +271,20 @@ html {
   padding: 20px 27vw 0; }
   .two .cocta li {
     list-style-type: none;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0; }
   .two .cocta img {
     width: 45vw;
-    border-radius: 5px; }
+    border-radius: 5px;
+    cursor: pointer; }
 .two ul {
   display: inline-block; }
   .two ul li {
     list-style-type: none;
     margin-bottom: 20px;
-    margin-right: 20px; }
+    margin-left: 10px;
+    margin-right: 10px; }
 .two .time {
   margin: 40px auto 0;
   width: 258px;
@@ -293,5 +297,27 @@ html {
     margin-bottom: 21px; }
 .two .clock {
   font-weight: bold; }
+
+#lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  cursor: pointer; }
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 100%;
+  padding: 4px;
+  background-color: black;
+  border: 2px solid white; }
 
 /*# sourceMappingURL=style.css.map */
