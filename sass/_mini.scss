@@ -1,0 +1,46 @@
+@media (max-width: 800px){
+	.menu_wrap{
+		.menu{
+			flex-flow: column nowrap;
+			height: 100vh;
+		}
+		.logo{
+			display: none;
+		}
+		.icon_wrap{
+			display: none;
+		}
+	}
+	.cont{
+		.arrow{
+			.left_arrow, .right_arrow{
+				height: 8vw;
+			}
+		}
+		.cont_text{
+			p{
+				padding: 20px 5vw 0;
+			}
+		}
+	}
+	.two{
+		.cocta{
+			padding: 20px 5vw 0;
+			img{
+				width: 100%;
+			}
+		}
+	}
+	.loader{
+		.logo{
+			top: 38%;
+		}
+	}
+}
+@media (min-height: 1200px){
+	.cont.one{
+		.cont_text{
+			height: 100vh;
+		}
+	}
+}
