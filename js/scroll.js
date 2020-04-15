@@ -10,6 +10,8 @@ let mendeleev = document.querySelector('.mendeleev');
 let one = document.querySelector('.one');
 let coctails = document.querySelector('.coctails');
 let two = document.querySelector('.two');
+let music = document.querySelector('.music');
+let four = document.querySelector('.four');
 
 mendeleev.onclick = function(){
 	one.classList.remove('display0');
@@ -22,11 +24,18 @@ coctails.onclick = function(){
 	two.scrollIntoView({behavior: "smooth"});
 	setTimeout(function(){menu.classList.add('display0');}, 1000);
 }
+music.onclick = function(){
+	four.classList.remove('display0');
+	four.scrollIntoView({behavior: "smooth"});
+	setTimeout(function(){menu.classList.add('display0');}, 1000);
+}
 
 let arrow = document.querySelector('.arrow');
 let logo = document.querySelector('.logo_b');
 let two_arrow = document.querySelector('.two_arrow');
 let two_logo = document.querySelector('.two_b_logo');
+let four_arrow = document.querySelector('.four_arrow');
+let four_logo = document.querySelector('.four_b_logo');
 arrow.onclick = function(){
 	menu.classList.remove('display0');
 	menu.scrollIntoView({behavior: "smooth"});
@@ -46,4 +55,14 @@ two_logo.onclick = function(){
 	menu.classList.remove('display0');
 	menu.scrollIntoView({behavior: "smooth"});
 	two.classList.add('display0');
+}
+four_arrow.onclick = function(){
+	menu.classList.remove('display0');
+	menu.scrollIntoView({behavior: "smooth"});
+	four.classList.add('display0');
+}
+four_logo.onclick = function(){
+	menu.classList.remove('display0');
+	menu.scrollIntoView({behavior: "smooth"});
+	four.classList.add('display0');
 }
