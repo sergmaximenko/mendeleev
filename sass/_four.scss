@@ -1,12 +1,15 @@
 .cont.four{
+	height: 0;
+	.left_arrow, .right_arrow{
+		margin-top: 20px;
+	}
 	.nameplate.mus{
 		width: 100px;
 	}
 	.cont_text{
-		height: 100vh;
 		iframe{
 			padding: 20px 27vw 0;
 		}
-		
+
 	}
 }
