@@ -1,5 +1,13 @@
-
-	.address{
+.cont.one{
+	height: 0;
+	.cont_text{
+		min-height: 800px;
+	}
+	.left_arrow, .right_arrow{
+		margin-top: 20px;
+	}
+}	
+		.address{
 	    padding-top: 20px;
 		width: 260px;
 		margin: 20px auto 0;

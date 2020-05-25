@@ -229,6 +229,10 @@ html {
     .cont .cont_text p {
       font-family: Arial;
       padding: 20px 27vw 0; }
+  .cont .logotape {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
   .cont .icon_mini {
     text-align: center;
     font-size: 25px;
@@ -243,6 +247,13 @@ html {
     margin-top: 20px;
     padding-bottom: 20px;
     cursor: pointer; }
+
+.cont.one {
+  height: 0; }
+  .cont.one .cont_text {
+    min-height: 800px; }
+  .cont.one .left_arrow, .cont.one .right_arrow {
+    margin-top: 20px; }
 
 .address {
   padding-top: 20px;
@@ -349,10 +360,10 @@ html {
 
   .slider_wrap #slider img {
     min-width: 1200px; } }
-@media (min-height: 1200px) {
+@media (min-height: 940px) {
   .cont.one .cont_text {
     height: 69vh; } }
-@media (min-height: 1200px) {
+@media (min-height: 940px) {
   .cont.four .cont_text {
     height: 69vh !important; } }
 @media (max-width: 320px) {
@@ -388,7 +399,9 @@ html {
     margin-top: 20px; }
   .cont.four .nameplate.mus {
     width: 100px; }
-  .cont.four .cont_text iframe {
-    padding: 20px 27vw 0; }
+  .cont.four .cont_text {
+    height: 550px; }
+    .cont.four .cont_text iframe {
+      padding: 20px 27vw 0; }
 
 /*# sourceMappingURL=style.css.map */
