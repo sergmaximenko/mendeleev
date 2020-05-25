@@ -360,6 +360,9 @@ html {
 
   .slider_wrap #slider img {
     min-width: 1200px; } }
+@media (max-width: 450px) {
+  .cont.one .cont_text {
+    height: 900px !important; } }
 @media (min-height: 940px) {
   .cont.one .cont_text {
     height: 69vh; } }

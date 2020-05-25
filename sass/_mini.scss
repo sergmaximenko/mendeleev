@@ -47,6 +47,14 @@
 		}
 	}
 }
+@media (max-width: 450px){
+	.cont.one{
+		.cont_text{
+			height: 900px!important;
+		}
+	}
+}
+
 @media (min-height: 940px){
 	.cont.one{
 		.cont_text{
