@@ -64,5 +64,4 @@ four_arrow.onclick = function(){
 four_logo.onclick = function(){
 	menu.classList.remove('display0');
 	menu.scrollIntoView({behavior: "smooth"});
-	four.classList.add('display0');
-}
+	four.classList.add('display0');}
