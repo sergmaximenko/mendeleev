@@ -1,0 +1,10 @@
+$width: 1920px;
+$height: 949px;
+
+@function width($n){
+	@return ($n / $width) * 100vw;
+};
+
+@function height($n){
+	@return ($n / $height) * 100vh;
+};

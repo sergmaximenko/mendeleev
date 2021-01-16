@@ -12,12 +12,13 @@ let coctails = document.querySelector('.coctails');
 let two = document.querySelector('.two');
 let music = document.querySelector('.music');
 let four = document.querySelector('.four');
+let three = document.querySelector('.three');
+let events = document.querySelector('.events');
 
 mendeleev.onclick = function(){
 	one.classList.remove('display0');
 	one.scrollIntoView({behavior: "smooth"});
 	setTimeout(function(){menu.classList.add('display0');}, 1000);
-	
 }
 coctails.onclick = function(){
 	two.classList.remove('display0');
@@ -30,12 +31,20 @@ music.onclick = function(){
 	setTimeout(function(){menu.classList.add('display0');}, 1000);
 }
 
+events.onclick = function(){
+	three.classList.remove('display0');
+	three.scrollIntoView({behavior: "smooth"});
+	setTimeout(function(){menu.classList.add('display0');}, 1000);
+}
+
 let arrow = document.querySelector('.arrow');
 let logo = document.querySelector('.logo_b');
 let two_arrow = document.querySelector('.two_arrow');
 let two_logo = document.querySelector('.two_b_logo');
 let four_arrow = document.querySelector('.four_arrow');
 let four_logo = document.querySelector('.four_b_logo');
+let three_arrow = document.querySelector('.three_arrow');
+let three_logo = document.querySelector('.three_b_logo');
 arrow.onclick = function(){
 	menu.classList.remove('display0');
 	menu.scrollIntoView({behavior: "smooth"});
@@ -65,3 +74,13 @@ four_logo.onclick = function(){
 	menu.classList.remove('display0');
 	menu.scrollIntoView({behavior: "smooth"});
 	four.classList.add('display0');}
+
+three_arrow.onclick = function(){
+	menu.classList.remove('display0');
+	menu.scrollIntoView({behavior: "smooth"});
+	three.classList.add('display0');
+}
+three_logo.onclick = function(){
+	menu.classList.remove('display0');
+	menu.scrollIntoView({behavior: "smooth"});
+	three.classList.add('display0');}
