@@ -5,28 +5,30 @@
 	}
 }	
 		.address{
-	    padding-top: 20px;
-		width: 260px;
-		margin: 20px auto 0;
+		white-space: nowrap;
+	    padding-top: width(20px);
+		width: width(260px);
+		margin: width(20px) auto 0;
 		font-family: Arial;
 		color: #6c859e;
 		cursor: pointer;
 		span{
 			transition: color .2s;
+			font-size: width(16.5px);
 			&:hover{
 				color: black;
 			}
 		}
 		i{
-			font-size: 25px;
-			margin-right: 10px;
+			font-size: width(25px);
+			margin-right: width(10px);
 			color: black;
 		}
 		.address_icon{
-			padding-bottom: 20px;
+			padding-bottom: width(20px);
 			.address_icon_wrap{
-				height: 30px;
-				width: 30px;
+				height: width(30px);
+				width: width(30px);
 				text-align: center;
 				display: inline-block;
 			}

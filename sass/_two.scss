@@ -1,20 +1,23 @@
 .two {
 	
 	.nameplate{
-	width: 220px;
+	width: width(220px);
+	}
+	p{
+		
 	}
 	.cocta{
 		text-align: center;
-		padding: 20px 27vw 0;
+		padding: width(20px) 26.7vw 0;
 		li{
 			list-style-type: none;
-			margin-bottom: 20px;
+			margin-bottom: width(20px);
 			margin-left: 0;
 			margin-right: 0;
 		}
 		img{
 			width: 45vw;
-			border-radius: 5px;
+			border-radius: width(5px);
 			cursor: pointer;
 		}
 	}
@@ -22,15 +25,15 @@
 		display: inline-block;
 		li{
 			list-style-type: none;
-			margin-bottom: 20px;
-			margin-left: 10px;
-			margin-right: 10px;
+			margin-bottom: width(20px);
+			margin-left: width(10px);
+			margin-right: width(10px);
 		}
 	}
 	.time{
-		margin: 40px auto 0;
-		width: 258px;
-		font-size: 20px;
+		margin: width(40px) auto 0;
+		width: width(258px);
+		font-size: width(20px);
 		font-family: Arial;
 	}
 	.day{

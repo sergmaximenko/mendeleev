@@ -22,8 +22,8 @@
 	position: fixed;
 	img{
 		width: 100%;
-		min-width: 1200px;
-		min-height: 800px;
+		min-width: width(1200px);
+		min-height: width(800px);
 		height: 100vh;
 		position: absolute;
 		opacity: 1;
