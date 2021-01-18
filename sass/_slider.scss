@@ -11,7 +11,7 @@
 		top: 0;
 		left: 0;
 		background: black;
-		z-index: 1000;
+		z-index: 1;
 		opacity: .2;
 	}
 #slider{
@@ -20,21 +20,50 @@
 	overflow: hidden;
 	top: 0;
 	position: fixed;
-	img{
+	.slide{
 		width: 100%;
 		min-width: width(1200px);
 		min-height: width(800px);
-		height: 100vh;
+		height: 99vh;
 		position: absolute;
 		opacity: 1;
 		transition: opacity 2s;
 		overflow: hidden;
+		background-size: 100% 100%!important;
+		background-repeat: no-repeat no-repeat!important;
 	}
 	.opacity0{
 		opacity: 0;
 	}
 	.anim{
 		animation: slider 11s linear;
+	}
+	.slide1{
+		background: url(../img/1.jpg);
+	}
+	.slide2{
+		background: url(../img/2.jpg);
+	}
+	.slide3{
+		background: url(../img/3.jpg);
+	}
+	.slide4{
+		background: url(../img/4.jpg);
+	}
+	.slide5{
+		background: url(../img/5.jpg);
+	}
+	.slide6{
+		background: url(../img/6.jpg);
+	}
+	.slide7{
+		background: url(../img/7.jpg);
+	}
+	.slide8{
+		background: url(../img/8.jpg);
+	}
+	.slide9{
+		background: url(../img/9.jpg);
 	}
 }	
 }

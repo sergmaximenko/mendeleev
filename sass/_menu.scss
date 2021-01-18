@@ -13,7 +13,6 @@
 		cursor: pointer;
 	}
 	.menu{
-		
 		display: flex;
 		flex-flow: row nowrap;
 		cursor: pointer;
@@ -22,6 +21,7 @@
 		width: 100%;
 		
 		.menu_column{
+			z-index: 10!important;
 			width: 100%;
 			height: 100vh;
 			flex: 1;

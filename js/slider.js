@@ -1,4 +1,4 @@
-let img = document.querySelectorAll('#slider img');
+let img = document.querySelectorAll('#slider div');
 cur = 0;
 
 function slider(){
@@ -22,4 +22,7 @@ function slider(){
 	}
 };
 
+for(let i=0; i<img.length; i++){
+	slider();
+}
 let timerId = setInterval(slider, 8000);

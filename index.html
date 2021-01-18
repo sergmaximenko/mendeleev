@@ -4,8 +4,11 @@
 	<meta charset="UTF-8">
 	<title>Mendeleev Bar Moscow</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://use.fontawesome.com/64249d1b61.js"></script>
+	<link rel="stylesheet" href="css/baguetteBox.min.css">
+	<script src="js/baguetteBox.min.js" async></script>
 </head>
 <body>
 <div class="all display0">
@@ -71,17 +74,17 @@
 		</div>
 </div>
 <div class="slider_wrap">
-		<div id="slider">
 		<div class="shadow"></div>
-		<img src="img/2.jpg" alt="">
-		<img src="img/3.jpg" alt="">
-		<img src="img/4.jpg" alt="">
-		<img src="img/5.jpg" alt="">
-		<img src="img/6.jpg" alt="">
-		<img src="img/7.jpg" alt="">
-		<img src="img/8.jpg" alt="">
-		<img src="img/9.jpg" alt="">
-		<img src="img/1.jpg" alt="" class="anim">
+		<div id="slider">
+		<div class="slide2 slide"></div>
+		<div class="slide3 slide"></div>
+		<div class="slide4 slide"></div>
+		<div class="slide5 slide"></div>
+		<div class="slide6 slide"></div>
+		<div class="slide7 slide"></div>
+		<div class="slide8 slide"></div>
+		<div class="slide9 slide"></div>
+		<div class="slide1 anim slide"></div>
 	</div>
 </div>
 <div class="cont one display0">
@@ -150,14 +153,14 @@
 		Excellent bar menu is accompanied by light, tasty and quick to prepare Pan-Asian cuisine<br /> from Mom — Chef next door restaurant “Roni”.<br>
 		Weekdays — live piano evenings and live jazz concerts. Weekends — cool deep techno and deep house djs.
 		</p>
-			<ul class="cocta">
-			<li><img src="./img/coctails/001.jpg" alt="" class="cocta_img"></li>
-			<li><img src="./img/coctails/002.jpg" alt="" class="cocta_img"></li>
-			<li><img src="./img/coctails/003.jpg" alt="" class="cocta_img"></li>
-			<li><img src="./img/coctails/004.jpg" alt="" class="cocta_img"></li>
-			<li><img src="./img/coctails/005.jpg" alt="" class="cocta_img"></li>
-			<li><img src="./img/coctails/006.jpg" alt="" class="cocta_img"></li>
-			<li><img src="./img/coctails/007.jpg" alt="" class="cocta_img"></li>
+			<ul class="cocta gallery">
+			<li><a href="./img/coctails/001.jpg"><img src="./img/coctails/001.jpg" alt="" class="cocta_img"></a></li>
+			<li><a href="./img/coctails/002.jpg"><img src="./img/coctails/002.jpg" alt="" class="cocta_img"></a></li>
+			<li><a href="./img/coctails/003.jpg"><img src="./img/coctails/003.jpg" alt="" class="cocta_img"></a></li>
+			<li><a href="./img/coctails/004.jpg"><img src="./img/coctails/004.jpg" alt="" class="cocta_img"></a></li>
+			<li><a href="./img/coctails/005.jpg"><img src="./img/coctails/005.jpg" alt="" class="cocta_img"></a></li>
+			<li><a href="./img/coctails/006.jpg"><img src="./img/coctails/006.jpg" alt="" class="cocta_img"></a></li>
+			<li><a href="./img/coctails/007.jpg"><img src="./img/coctails/007.jpg" alt="" class="cocta_img"></a></li>
 		</ul>
 		<h2>OPENING HOURS</h2>
 		<h3>Clockwise</h3>
@@ -263,9 +266,20 @@
 
 </div>
 </div>
+
+	
 	<script src="js/load.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/scroll.js"></script>
-	<script src="js/lightbox.js"></script>
+	<script src="js/touch.js"></script>
+	<script src="js/mini.js"></script>
+	
+		<script>
+window.addEventListener('load', function() {
+  baguetteBox.run('.gallery');
+});
+</script>
+
+
 </body>
 </html>
