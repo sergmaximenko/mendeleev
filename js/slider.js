@@ -5,7 +5,7 @@ function slider(){
 	if(cur == 0){
 		img[7].classList.remove('anim');
 	}
-	if(cur == 7){
+	if(cur == 1){
 		img[8].classList.remove('anim');
 	}
 	for(let i = 0; i < img.length; i++){

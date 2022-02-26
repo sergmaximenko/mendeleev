@@ -1,6 +1,6 @@
 let all = document.querySelector('.all');
 window.onload=function(){
-	if (document.documentElement.clientWidth < 									document.documentElement.clientHeight){
+	if (document.documentElement.clientWidth < document.documentElement.clientHeight){
 		all.classList.remove('display0');
 		menu.classList.remove('display0');
 		return false;

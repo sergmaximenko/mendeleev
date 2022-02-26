@@ -16,15 +16,6 @@ html {
   width: 100%;
   height: 100vh;
   overflow: hidden; }
-  .slider_wrap .shadow {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: black;
-    z-index: 1;
-    opacity: .2; }
   .slider_wrap #slider {
     width: 100%;
     height: 100vh;
@@ -43,7 +34,7 @@ html {
       background-size: 100% 100% !important;
       background-repeat: no-repeat no-repeat !important; }
     .slider_wrap #slider .opacity0 {
-      opacity: 0; }
+      opacity: 0 !important; }
     .slider_wrap #slider .anim {
       animation: slider 11s linear; }
     .slider_wrap #slider .slide1 {
@@ -151,7 +142,7 @@ html {
   animation: scroll2 1s ease;
   height: 100vh; }
 
-.opacity0 {
+.opacity00 {
   animation: opa 1s ease; }
 
 @keyframes icon {
