@@ -1,4 +1,3 @@
-
 if(document.documentElement.clientWidth > document.documentElement.clientHeight){
 	img[8].style.background="url(../img/1.jpg)";
 	img[0].style.background="url(../img/2.jpg)";

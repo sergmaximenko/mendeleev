@@ -2,9 +2,11 @@ let img = document.querySelectorAll('#slider div');
 cur = 0;
 
 function slider(){
-	if(cur == 1){
-		img[8].classList.remove('anim');
+	if(cur == 0){
 		img[7].classList.remove('anim');
+	}
+	if(cur == 7){
+		img[8].classList.remove('anim');
 	}
 	for(let i = 0; i < img.length; i++){
 		img[i].classList.add('opacity0');
@@ -20,6 +22,7 @@ function slider(){
 	else{
 		cur++;
 	}
+	
 };
 
 for(let i=0; i<img.length; i++){
