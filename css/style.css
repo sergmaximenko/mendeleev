@@ -468,12 +468,6 @@ html {
     height: 7.0588235294vw !important;
     line-height: 7.0588235294vw !important;
     font-size: 3.5294117647vw !important; }
-  .cont .shadow {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    background: rgba(255, 255, 255, 0.8);
-    margin-top: 102.9411764706vw; }
   .cont .cont_text {
     margin-top: -3.5294117647vw !important; }
     .cont .cont_text h2 {
