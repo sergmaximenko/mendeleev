@@ -19,13 +19,7 @@ mendeleev.onclick = function () {
 	one.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
-
-	window.addEventListener('scroll', function () {
-		let one = document.querySelector('.one').querySelector('.shadow');
-		one.style.marginTop = -pageYOffset -12 + 'px';
-	});
-
-
+	
 }
 coctails.onclick = function () {
 	for (let i = 0; i < menuCol.length; i++) {
@@ -36,10 +30,6 @@ coctails.onclick = function () {
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
 	
-		window.addEventListener('scroll', function () {
-		let two = document.querySelector('.two').querySelector('.shadow');
-		two.style.marginTop = -pageYOffset -12 + 'px';
-	});
 }
 music.onclick = function () {
 	for (let i = 0; i < menuCol.length; i++) {
@@ -50,10 +40,6 @@ music.onclick = function () {
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
 	
-		window.addEventListener('scroll', function () {
-		let four = document.querySelector('.four').querySelector('.shadow');
-		four.style.marginTop = -pageYOffset + 'px';
-	});
 }
 
 events.onclick = function () {
@@ -65,10 +51,7 @@ events.onclick = function () {
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
 	
-		window.addEventListener('scroll', function () {
-		let three = document.querySelector('.three').querySelector('.shadow');
-		three.style.marginTop = -pageYOffset -12 + 'px';
-	});
+
 }
 
 let arrow = document.querySelector('.arrow');
