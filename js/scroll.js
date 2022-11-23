@@ -20,20 +20,12 @@ mendeleev.onclick = function () {
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
 
-	$(window).scroll(function () {
-		if ($(window).scrollTop() == $(document).height() - $(window).height()) {
-			let cont_one = document.querySelector('.one').querySelector('.cont_text');
-//			cont_one.style.position = 'fixed';
-			console.log(1)
-			window.addEventListener('scroll', () => {
-				if (this.oldScroll > this.scrollY) {
-					console.log(2)
-//					cont_one.style.position = 'relative';
-				}
-				this.oldScroll = this.scrollY;
-			});
-		}
+	window.addEventListener('scroll', function () {
+		let one = document.querySelector('.one').querySelector('.shadow');
+		one.style.marginTop = -pageYOffset -12 + 'px';
 	});
+
+
 }
 coctails.onclick = function () {
 	for (let i = 0; i < menuCol.length; i++) {
@@ -43,6 +35,11 @@ coctails.onclick = function () {
 	two.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
+	
+		window.addEventListener('scroll', function () {
+		let two = document.querySelector('.two').querySelector('.shadow');
+		two.style.marginTop = -pageYOffset -12 + 'px';
+	});
 }
 music.onclick = function () {
 	for (let i = 0; i < menuCol.length; i++) {
@@ -52,6 +49,11 @@ music.onclick = function () {
 	four.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
+	
+		window.addEventListener('scroll', function () {
+		let four = document.querySelector('.four').querySelector('.shadow');
+		four.style.marginTop = -pageYOffset + 'px';
+	});
 }
 
 events.onclick = function () {
@@ -62,6 +64,11 @@ events.onclick = function () {
 	three.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
+	
+		window.addEventListener('scroll', function () {
+		let three = document.querySelector('.three').querySelector('.shadow');
+		three.style.marginTop = -pageYOffset -12 + 'px';
+	});
 }
 
 let arrow = document.querySelector('.arrow');
