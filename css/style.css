@@ -462,14 +462,16 @@ html {
   .cont h1 {
     font-size: 5.2941176471vw !important;
     letter-spacing: 0.4705882353vw !important;
-    margin-top: 2.3529411765vw !important; }
+    margin-top: 2.3529411765vw !important;
+    color: red; }
   .cont .icon {
     width: 7.0588235294vw !important;
     height: 7.0588235294vw !important;
     line-height: 7.0588235294vw !important;
     font-size: 3.5294117647vw !important; }
   .cont .cont_text {
-    margin-top: -3.5294117647vw !important; }
+    margin-top: -3.5294117647vw !important;
+    bottom: 0; }
     .cont .cont_text h2 {
       margin-top: 4.7058823529vw !important;
       font-size: 4.3529411765vw !important;
