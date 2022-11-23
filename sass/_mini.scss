@@ -1,195 +1,258 @@
-@media screen and (max-width: 1024px){
-	.menu{
-		flex-flow: column nowrap!important;
-		height: 100vh!important;
-		width: 100%!important;
-		
-		h1{
-			font-size: width(24px+50px)!important;
-			letter-spacing: width(3px+3px)!important;
+@media screen and (max-width: 1024px) {
+
+	.menu {
+		flex-flow: column nowrap !important;
+		height: 100vh !important;
+		width: 100% !important;
+
+		h1 {
+			font-size: width(24px+50px) !important;
+			letter-spacing: width(3px+3px) !important;
 		}
-		h2{
-			font-size: width(18px+50px)!important;
+
+		h2 {
+			font-size: width(18px+50px) !important;
 		}
 	}
-	.logo1{
-			display: none!important;
-		}
-	.loader{
+
+	.logo1 {
+		display: none !important;
+	}
+
+	.loader {
 		display: none;
 	}
-	.icon_wrap{
-			display: none!important;
-		}
-	.menu_column:hover{
-				background: none!important;
-				transition: none!important;
-			}
-	.cont{
-		.left_arrow, .right_arrow{
-		width: width(200px)!important;
-		height: width(7px)!important;
-		margin-left:  width(-100px)!important;
-		margin-top: width(100px)!important;
+
+	.icon_wrap {
+		display: none !important;
 	}
-	.arrow{
-		width: auto!important;
-		height: width(300px)!important;
-		padding-top: width(100px)!important;
-		&:hover .left_arrow{
-			left: 50vw;
-		}
-		&:hover .right_arrow{
-			left: 50vw;
-		}
+
+	.menu_column:hover {
+		background: none !important;
+		transition: none !important;
 	}
-	.nameplate{
-		font-size: width(14px+50px)!important;
-		width: width(300px)!important;
-		height: width(80px)!important;
-		border-radius: width(5px+5px)!important;
-		line-height: width(80px)!important;
-		margin-top: height(160px)!important;
-	}
-		h1{
-			font-size: width(40px+50px)!important;
-			letter-spacing: width(8px)!important;
-			margin-top: width(20px+20px)!important;
+
+	.cont {
+
+		.left_arrow,
+		.right_arrow {
+			width: width(200px) !important;
+			height: width(7px) !important;
+			margin-left: width(-100px) !important;
+			margin-top: width(100px) !important;
 		}
-		.icon{
-			width: width(120px)!important;
-			height: width(120px)!important;
-			line-height: width(120px)!important;
-			font-size: width(60px)!important;
+
+		.arrow {
+			width: auto !important;
+			height: width(300px) !important;
+			padding-top: width(100px) !important;
+
+			&:hover .left_arrow {
+				left: 50vw;
+			}
+
+			&:hover .right_arrow {
+				left: 50vw;
+			}
 		}
-		.cont_text{
-			margin-top: width(-60px)!important;
-			h2{
-				margin-top: width(80px)!important;
-				font-size: width(24px+50px)!important;
-				margin-top: width(60px+50px)!important;
+
+		.nameplate {
+			font-size: width(14px+50px) !important;
+			width: width(300px) !important;
+			height: width(80px) !important;
+			border-radius: width(5px+5px) !important;
+			line-height: width(80px) !important;
+			margin-top: height(160px) !important;
+		}
+
+		h1 {
+			font-size: width(40px+50px) !important;
+			letter-spacing: width(8px) !important;
+			margin-top: width(20px+20px) !important;
+		}
+
+		.icon {
+			width: width(120px) !important;
+			height: width(120px) !important;
+			line-height: width(120px) !important;
+			font-size: width(60px) !important;
+		}
+
+		.shadow {
+			width: 100%;
+			height: 100vh;
+			position: fixed;
+			background: rgba(255, 255, 255, 0.8);
+			margin-top: width(-60px);
+		}
+
+		.cont_text {
+			background: none;
+			margin-top: width(-60px) !important;
+
+			h2 {
+				margin-top: width(80px) !important;
+				font-size: width(24px+50px) !important;
+				margin-top: width(60px+50px) !important;
 			}
-			h3{
-				margin-top: width(5px)!important;
-				font-size: width(21px+50px)!important;
-				margin-top: width(5px+20px)!important;
+
+			h3 {
+				margin-top: width(5px) !important;
+				font-size: width(21px+50px) !important;
+				margin-top: width(5px+20px) !important;
 			}
-			p{
-				font-size: width(17px+50px)!important;
-				padding: width(20px+50px) 7vw 0!important;
-				
+
+			p {
+				font-size: width(17px+50px) !important;
+				padding: width(20px+50px) 7vw 0 !important;
+
 			}
-			.logotape{
+
+			.logotape {
 				margin-top: width(30px+50px);
 			}
-			.icon_mini{
-				font-size: width(25px+50px)!important;
-				margin-top: width(40px)!important;
-				i{
-					margin-right: width(10px+30px)!important;
-					margin-left: width(10px+30px)!important;
-					margin-top: width(20px+30px)!important;
+
+			.icon_mini {
+				font-size: width(25px+50px) !important;
+				margin-top: width(40px) !important;
+
+				i {
+					margin-right: width(10px+30px) !important;
+					margin-left: width(10px+30px) !important;
+					margin-top: width(20px+30px) !important;
 				}
 			}
-			.logo_b{
-				padding-bottom: width(30px+50px)!important;
-				margin-top: width(20px+50px)!important;
-				img{
-					width: width(24px+50px)!important;
-					height: width(39px+50px)!important;
-					
+
+			.logo_b {
+				padding-bottom: width(30px+50px) !important;
+				margin-top: width(20px+50px) !important;
+
+				img {
+					width: width(24px+50px) !important;
+					height: width(39px+50px) !important;
+
 				}
 			}
 		}
 	}
-	.one{
-		.address{
-			width: width(1090px)!important;
-			margin: width(20px+50px) auto 0!important;
-			.address_icon{
+
+	.one {
+		.address {
+			width: width(1090px) !important;
+			margin: width(20px+50px) auto 0 !important;
+
+			.address_icon {
 				padding-bottom: width(20px+50px);
 			}
-			span{
-				font-size: width(16.5px+50px)!important;
-				margin-left: width(24px+10px)!important;
+
+			span {
+				font-size: width(16.5px+50px) !important;
+				margin-left: width(24px+10px) !important;
 			}
-			i{
-				font-size: width(25px+50px)!important;
+
+			i {
+				font-size: width(25px+50px) !important;
 			}
-			.address_icon_wrap{
-				height: width(30px+50px)!important;
-				width: width(30px+50px)!important;
+
+			.address_icon_wrap {
+				height: width(30px+50px) !important;
+				width: width(30px+50px) !important;
 			}
 		}
 	}
-	.two{
-		.left_arrow, .right_arrow{
-		margin-top: width(180px)!important;
-	}
-		.nameplate{
-			margin-top: height(90px)!important; 
+
+	.two {
+
+		.left_arrow,
+		.right_arrow {
+			margin-top: width(180px) !important;
 		}
-	.arrow{
-		margin-top: width(180px)!important;
-	}
-		.nameplate{
-			width: width(810px)!important;
+
+		.nameplate {
+			margin-top: height(90px) !important;
 		}
-		.cocta{
-			padding: width(20px+50px) 15vw 0!important;
-			li{
-				margin-bottom: width(20px+50px)!important;
-				img{
-					width: 70vw!important;
-					border-radius: width(10px)!important;
+
+		.arrow {
+			margin-top: width(180px) !important;
+		}
+
+		.nameplate {
+			width: width(810px) !important;
+		}
+
+		.cocta {
+			padding: width(20px+50px) 15vw 0 !important;
+
+			li {
+				margin-bottom: width(20px+50px) !important;
+
+				img {
+					width: 70vw !important;
+					border-radius: width(10px) !important;
 				}
 			}
 		}
-		.time{
-			margin: width(40px+50px) auto 0!important;
-			width: width(258px+550px)!important;
-			font-size: width(20px+50px)!important;
+
+		.time {
+			margin: width(40px+50px) auto 0 !important;
+			width: width(258px+550px) !important;
+			font-size: width(20px+50px) !important;
 		}
 	}
-	.three{
-			.left_arrow, .right_arrow{
-		margin-top: width(180px)!important;
-	}
-		.nameplate{
-			margin-top: height(90px)!important; 
+
+	.three {
+
+		.left_arrow,
+		.right_arrow {
+			margin-top: width(180px) !important;
 		}
-	.arrow{
-		margin-top: width(180px)!important;
-	}
-		.nameplate{
-			width: width(670px)!important;
+
+		.nameplate {
+			margin-top: height(90px) !important;
 		}
-		iframe{
+
+		.arrow {
+			margin-top: width(180px) !important;
+		}
+
+		.nameplate {
+			width: width(670px) !important;
+		}
+
+		iframe {
 			width: 70vw;
 			height: 45vw;
 			padding-top: width(20px+50px);
 		}
 	}
-	.four{
-			.left_arrow, .right_arrow{
-		margin-top: width(200px)!important;
-	}
-		.nameplate{
-			margin-top: height(90px)!important; 
+
+	.four {
+
+		.left_arrow,
+		.right_arrow {
+			margin-top: width(200px) !important;
 		}
-	.arrow{
-		margin-top: width(200px)!important;
-	}
-		.nameplate{
-			width: width(350px)!important;
+
+		.nameplate {
+			margin-top: height(90px) !important;
 		}
-		iframe{
-			width: 	100vw!important;
-			height: 35vw!important;
-			padding: width(20px+50px) 7vw 0!important;
+
+		.arrow {
+			margin-top: width(200px) !important;
 		}
-		p{
-			margin-left: 0!important;
+
+		.nameplate {
+			width: width(350px) !important;
+		}
+
+		iframe {
+			width: 100vw !important;
+			height: 35vw !important;
+			padding: width(20px+50px) 7vw 0 !important;
+		}
+
+		p {
+			margin-left: 0 !important;
 		}
 	}
-	}
+}

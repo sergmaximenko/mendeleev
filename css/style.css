@@ -438,7 +438,8 @@ html {
     background: none !important;
     transition: none !important; }
 
-  .cont .left_arrow, .cont .right_arrow {
+  .cont .left_arrow,
+  .cont .right_arrow {
     width: 11.7647058824vw !important;
     height: 0.4117647059vw !important;
     margin-left: -5.8823529412vw !important;
@@ -467,7 +468,14 @@ html {
     height: 7.0588235294vw !important;
     line-height: 7.0588235294vw !important;
     font-size: 3.5294117647vw !important; }
+  .cont .shadow {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: -3.5294117647vw; }
   .cont .cont_text {
+    background: none;
     margin-top: -3.5294117647vw !important; }
     .cont .cont_text h2 {
       margin-top: 4.7058823529vw !important;
@@ -510,7 +518,8 @@ html {
       height: 4.7058823529vw !important;
       width: 4.7058823529vw !important; }
 
-  .two .left_arrow, .two .right_arrow {
+  .two .left_arrow,
+  .two .right_arrow {
     margin-top: 10.5882352941vw !important; }
   .two .nameplate {
     margin-top: 5.2941176471vh !important; }
@@ -530,7 +539,8 @@ html {
     width: 47.5294117647vw !important;
     font-size: 4.1176470588vw !important; }
 
-  .three .left_arrow, .three .right_arrow {
+  .three .left_arrow,
+  .three .right_arrow {
     margin-top: 10.5882352941vw !important; }
   .three .nameplate {
     margin-top: 5.2941176471vh !important; }
@@ -543,7 +553,8 @@ html {
     height: 45vw;
     padding-top: 4.1176470588vw; }
 
-  .four .left_arrow, .four .right_arrow {
+  .four .left_arrow,
+  .four .right_arrow {
     margin-top: 11.7647058824vw !important; }
   .four .nameplate {
     margin-top: 5.2941176471vh !important; }
