@@ -463,7 +463,7 @@ html {
     font-size: 5.2941176471vw !important;
     letter-spacing: 0.4705882353vw !important;
     margin-top: 2.3529411765vw !important;
-    color: red !important; }
+    color: blue !important; }
   .cont .icon {
     width: 7.0588235294vw !important;
     height: 7.0588235294vw !important;
@@ -473,7 +473,8 @@ html {
     width: 100%;
     height: 100vh;
     position: fixed;
-    background: rgba(255, 255, 255, 0.8); }
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: -250px; }
   .cont .cont_text {
     margin-top: -3.5294117647vw !important; }
     .cont .cont_text h2 {
