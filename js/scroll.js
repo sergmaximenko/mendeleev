@@ -19,7 +19,7 @@ mendeleev.onclick = function () {
 	one.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
-	
+	menu.style.zIndex = 0;
 }
 coctails.onclick = function () {
 	for (let i = 0; i < menuCol.length; i++) {
@@ -29,7 +29,7 @@ coctails.onclick = function () {
 	two.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
-	
+	menu.style.zIndex = 0;
 }
 music.onclick = function () {
 	for (let i = 0; i < menuCol.length; i++) {
@@ -39,7 +39,7 @@ music.onclick = function () {
 	four.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
-	
+	menu.style.zIndex = 0;
 }
 
 events.onclick = function () {
@@ -50,7 +50,7 @@ events.onclick = function () {
 	three.classList.remove('display0');
 	menu.classList.add('scroll');
 	menu.classList.remove('scroll2');
-	
+	menu.style.zIndex = 0;
 
 }
 
@@ -70,6 +70,7 @@ arrow.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		one.classList.add('display0');
 	}, 700);
@@ -85,6 +86,7 @@ logo.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		one.classList.add('display0');
 	}, 700);
@@ -98,6 +100,7 @@ two_arrow.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		two.classList.add('display0');
 	}, 700);
@@ -113,6 +116,7 @@ two_logo.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		two.classList.add('display0');
 	}, 700);
@@ -125,6 +129,7 @@ four_arrow.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		four.classList.add('display0');
 	}, 700);
@@ -140,6 +145,7 @@ four_logo.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		four.classList.add('display0');
 	}, 700);
@@ -153,6 +159,7 @@ three_arrow.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		three.classList.add('display0');
 	}, 700);
@@ -168,6 +175,7 @@ three_logo.onclick = function () {
 	menu.classList.remove('display0');
 	menu.classList.remove('scroll');
 	menu.classList.add('scroll2');
+	menu.style.zIndex = 10;
 	setTimeout(function () {
 		three.classList.add('display0');
 	}, 700);

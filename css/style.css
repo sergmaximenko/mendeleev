@@ -418,7 +418,9 @@ html {
   .menu {
     flex-flow: column nowrap !important;
     height: 100vh !important;
-    width: 100% !important; }
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 10; }
     .menu h1 {
       font-size: 4.3529411765vw !important;
       letter-spacing: 0.3529411765vw !important; }
