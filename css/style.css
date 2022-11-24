@@ -469,7 +469,11 @@ html {
     line-height: 7.0588235294vw !important;
     font-size: 3.5294117647vw !important; }
   .cont .cont_text {
-    margin-top: -3.5294117647vw !important; }
+    margin-top: -3.5294117647vw !important;
+    position: fixed !important;
+    overflow: scroll !important;
+    height: 64% !important;
+    width: 100% !important; }
     .cont .cont_text h2 {
       margin-top: 4.7058823529vw !important;
       font-size: 4.3529411765vw !important;
