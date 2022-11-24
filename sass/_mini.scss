@@ -33,7 +33,10 @@
 	}
 
 	.cont {
-
+		position: fixed!important;
+		overflow: scroll!important;
+		height: 100%!important;
+		width: 100%!important;
 		.left_arrow,
 		.right_arrow {
 			width: width(200px) !important;
@@ -79,10 +82,6 @@
 		}
 		.cont_text {
 			margin-top: width(-60px) !important;
-			position: fixed!important;
-			overflow: scroll!important;
-			height: 64%!important;
-			width: 100%!important;
 			h2 {
 				margin-top: width(80px) !important;
 				font-size: width(24px+50px) !important;

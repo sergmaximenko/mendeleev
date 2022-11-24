@@ -438,68 +438,69 @@ html {
     background: none !important;
     transition: none !important; }
 
-  .cont .left_arrow,
-  .cont .right_arrow {
-    width: 11.7647058824vw !important;
-    height: 0.4117647059vw !important;
-    margin-left: -5.8823529412vw !important;
-    margin-top: 5.8823529412vw !important; }
-  .cont .arrow {
-    width: auto !important;
-    height: 17.6470588235vw !important;
-    padding-top: 5.8823529412vw !important; }
-    .cont .arrow:hover .left_arrow {
-      left: 50vw; }
-    .cont .arrow:hover .right_arrow {
-      left: 50vw; }
-  .cont .nameplate {
-    font-size: 3.7647058824vw !important;
-    width: 17.6470588235vw !important;
-    height: 4.7058823529vw !important;
-    border-radius: 0.5882352941vw !important;
-    line-height: 4.7058823529vw !important;
-    margin-top: 9.4117647059vh !important; }
-  .cont h1 {
-    font-size: 5.2941176471vw !important;
-    letter-spacing: 0.4705882353vw !important;
-    margin-top: 2.3529411765vw !important; }
-  .cont .icon {
-    width: 7.0588235294vw !important;
-    height: 7.0588235294vw !important;
-    line-height: 7.0588235294vw !important;
-    font-size: 3.5294117647vw !important; }
-  .cont .cont_text {
-    margin-top: -3.5294117647vw !important;
+  .cont {
     position: fixed !important;
     overflow: scroll !important;
-    height: 64% !important;
+    height: 100% !important;
     width: 100% !important; }
-    .cont .cont_text h2 {
-      margin-top: 4.7058823529vw !important;
-      font-size: 4.3529411765vw !important;
-      margin-top: 6.4705882353vw !important; }
-    .cont .cont_text h3 {
-      margin-top: 0.2941176471vw !important;
-      font-size: 4.1764705882vw !important;
-      margin-top: 1.4705882353vw !important; }
-    .cont .cont_text p {
-      font-size: 3.9411764706vw !important;
-      padding: 4.1176470588vw 7vw 0 !important; }
-    .cont .cont_text .logotape {
-      margin-top: 4.7058823529vw; }
-    .cont .cont_text .icon_mini {
-      font-size: 4.4117647059vw !important;
+    .cont .left_arrow,
+    .cont .right_arrow {
+      width: 11.7647058824vw !important;
+      height: 0.4117647059vw !important;
+      margin-left: -5.8823529412vw !important;
+      margin-top: 5.8823529412vw !important; }
+    .cont .arrow {
+      width: auto !important;
+      height: 17.6470588235vw !important;
+      padding-top: 5.8823529412vw !important; }
+      .cont .arrow:hover .left_arrow {
+        left: 50vw; }
+      .cont .arrow:hover .right_arrow {
+        left: 50vw; }
+    .cont .nameplate {
+      font-size: 3.7647058824vw !important;
+      width: 17.6470588235vw !important;
+      height: 4.7058823529vw !important;
+      border-radius: 0.5882352941vw !important;
+      line-height: 4.7058823529vw !important;
+      margin-top: 9.4117647059vh !important; }
+    .cont h1 {
+      font-size: 5.2941176471vw !important;
+      letter-spacing: 0.4705882353vw !important;
       margin-top: 2.3529411765vw !important; }
-      .cont .cont_text .icon_mini i {
-        margin-right: 2.3529411765vw !important;
-        margin-left: 2.3529411765vw !important;
-        margin-top: 2.9411764706vw !important; }
-    .cont .cont_text .logo_b {
-      padding-bottom: 4.7058823529vw !important;
-      margin-top: 4.1176470588vw !important; }
-      .cont .cont_text .logo_b img {
-        width: 4.3529411765vw !important;
-        height: 5.2352941176vw !important; }
+    .cont .icon {
+      width: 7.0588235294vw !important;
+      height: 7.0588235294vw !important;
+      line-height: 7.0588235294vw !important;
+      font-size: 3.5294117647vw !important; }
+    .cont .cont_text {
+      margin-top: -3.5294117647vw !important; }
+      .cont .cont_text h2 {
+        margin-top: 4.7058823529vw !important;
+        font-size: 4.3529411765vw !important;
+        margin-top: 6.4705882353vw !important; }
+      .cont .cont_text h3 {
+        margin-top: 0.2941176471vw !important;
+        font-size: 4.1764705882vw !important;
+        margin-top: 1.4705882353vw !important; }
+      .cont .cont_text p {
+        font-size: 3.9411764706vw !important;
+        padding: 4.1176470588vw 7vw 0 !important; }
+      .cont .cont_text .logotape {
+        margin-top: 4.7058823529vw; }
+      .cont .cont_text .icon_mini {
+        font-size: 4.4117647059vw !important;
+        margin-top: 2.3529411765vw !important; }
+        .cont .cont_text .icon_mini i {
+          margin-right: 2.3529411765vw !important;
+          margin-left: 2.3529411765vw !important;
+          margin-top: 2.9411764706vw !important; }
+      .cont .cont_text .logo_b {
+        padding-bottom: 4.7058823529vw !important;
+        margin-top: 4.1176470588vw !important; }
+        .cont .cont_text .logo_b img {
+          width: 4.3529411765vw !important;
+          height: 5.2352941176vw !important; }
 
   .one .address {
     width: 64.1176470588vw !important;
